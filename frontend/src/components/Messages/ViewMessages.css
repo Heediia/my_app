@@ -1,0 +1,87 @@
+/* ViewMessages.css */
+.view-messages-container {
+    max-width: 1800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .messages-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    table-layout: fixed;
+    border: 2px solid transparent;
+    background: linear-gradient(#212121, #212121) padding-box, linear-gradient(145deg, #e81cff, #40c9ff) border-box;
+    color: #fff;
+  }
+  
+  .messages-table th, .messages-table td {
+    border: 1px solid transparent; /* Bordure transparente */
+    padding: 10px;
+    text-align: center;
+    background: linear-gradient(#212121, #212121) padding-box, linear-gradient(145deg, #e81cff, #40c9ff) border-box; /* Dégradé pour la bordure */
+    color: #fff;
+  }
+  
+  .messages-table th {
+    background-color: #212121; /* Même couleur d'arrière-plan */
+  }
+  
+  .messages-table td {
+    background-color: #212121; /* Même couleur d'arrière-plan */
+  }
+  
+  .error-message {
+    color: red;
+    text-align: center;
+  }
+  
+  button {
+    margin-bottom: 5px;
+    margin-right: 10px;
+    padding: 5px 10px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .button-edit {
+    background-color: #007bff; /* Bleu - couleur par défaut */
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .button-edit:hover {
+    background-color: #0056b3; /* Bleu plus foncé au survol */
+  }
+  
+  .button-delete {
+    background-color: #dc3545; /* Rouge - couleur par défaut */
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .button-delete:hover {
+    background-color: #c82333; /* Rouge plus foncé au survol */
+  }
+  
+  /* Ajustement de la largeur des champs de saisie */
+  .messages-table input {
+    width: 100%; /* Réglage de la largeur à 100% */
+    box-sizing: border-box; /* Inclure la largeur du bord et du rembourrage dans la largeur totale */
+    padding: 8px; /* Espacement interne */
+  }
+  

@@ -1,0 +1,112 @@
+.form-container {
+    width: 450px;
+    border: 2px solid #333; /* Darker border color */
+    padding: 14px 24px;
+    font-size: 14px;
+    font-family: Arial, sans-serif; /* Changed to a modern font */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    margin: 20px auto 10px;
+    height: 510px;
+    flex-wrap: wrap;
+    align-content: space-around;
+    background: #f7f7f7; /* Light background color */
+}
+
+.form-container button:active {
+    scale: 0.95;
+}
+
+.form-container .form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-container .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.form-container .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555; /* Medium gray color */
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.form-container .form-group input {
+    width: 90%;
+    padding: 12px 16px;
+    border-radius: 8px;
+    color: #333; /* Darker text color */
+    font-family: inherit;
+    background-color: #fff; /* White background color */
+    border: 1px solid #ccc; /* Light gray border */
+}
+
+.form-container .form-group textarea {
+    width: 90%;
+    padding: 12px 16px;
+    border-radius: 8px;
+    resize: none;
+    color: #333; /* Darker text color */
+    height: 96px;
+    border: 1px solid #ccc; /* Light gray border */
+    background-color: #fff; /* White background color */
+    font-family: inherit;
+}
+
+.form-container .form-group input::placeholder {
+    opacity: 0.5;
+    color: #aaa; /* Light gray placeholder */
+}
+
+.form-container .form-group input:focus {
+    outline: none;
+    border-color: #007BFF; /* Blue border on focus */
+}
+
+.form-container .form-group textarea:focus {
+    outline: none;
+    border-color: #007BFF; /* Blue border on focus */
+}
+
+.form-container .form-submit-btn {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    align-self: flex-start;
+    font-family: inherit;
+    color: #fff; /* White text color */
+    font-weight: 600;
+    width: 40%;
+    background: #007BFF; /* Blue background color */
+    border: 1px solid #007BFF; /* Blue border color */
+    padding: 12px 16px;
+    font-size: inherit;
+    gap: 8px;
+    margin-top: 8px;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.form-container .form-submit-btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    border-color: #0056b3; /* Darker blue border on hover */
+}
+
+.h1 {
+    color: #333; /* Darker text color */
+    text-align: center;
+    text-transform: capitalize;
+    padding: 13px;
+    margin: 40px 0 0 0;
+    font-weight: 700;
+    font-size: 30px;
+}

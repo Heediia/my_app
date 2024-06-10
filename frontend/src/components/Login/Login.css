@@ -1,0 +1,98 @@
+body {
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login {
+  width: 100%;
+  max-width: 360px;
+  background: #fff;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  color: #333;
+  font-size: 1em;
+}
+
+.login input[type="text"],
+.login input[type="password"] {
+  width: calc(100% - 36px);
+  padding: 12px 18px;
+  margin: 15px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background: #f9f9f9;
+  color: #333;
+  font-size: 1em;
+}
+
+.login input[type="text"]:focus,
+.login input[type="password"]:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.login input[type="submit"],
+.login input[type="button"],
+.btn {
+  width: 100%;
+  padding: 12px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 8px;
+  background: #007bff;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.login input[type="submit"]:hover,
+.login input[type="button"]:hover,
+.btn:hover {
+  background: #0056b3;
+}
+
+.h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 1.4em;
+  color: #444;
+}
+
+.ui {
+  font-weight: bold;
+  background: linear-gradient(145deg, #b563ff, #535efc, #0ec8ee);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border-bottom: 2px solid transparent;
+}
+
+.signup-text {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 0.9em;
+  color: #666;
+}
+
+.error-message-login {
+  margin-top: 15px;
+  margin-bottom: 0;
+  text-align: center;
+  font-size: 1em;
+  color: #d9534f;
+}
+
+@media only screen and (max-width: 600px) {
+  .login {
+    width: 80%;
+    padding: 30px;
+  }
+}

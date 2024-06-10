@@ -1,0 +1,81 @@
+/* Header */
+.header {
+  background-color: #ffffff; /* Light background color */
+  color: #333333; /* Dark text color */
+  padding: 15px 20px; /* Comfortable padding */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.logo {
+  width: 80px; /* Smaller logo for a clean look */
+  height: auto;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  font-size: 16px; /* Smaller font size */
+}
+
+nav ul li {
+  margin-right: 20px; /* Reduced spacing between items */
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333333; /* Dark text color */
+  font-weight: 500; /* Slightly bold font */
+  transition: color 0.3s; /* Smooth hover transition */
+}
+
+nav ul li a:hover {
+  color: #007BFF; /* Blue color on hover */
+}
+
+/* Button styles */
+.Btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 15px;
+  border: 1px solid #007BFF; /* Blue border */
+  border-radius: 5px;
+  background-color: #ffffff; /* White background */
+  color: #007BFF; /* Blue text color */
+  cursor: pointer;
+  transition: all 0.3s; /* Smooth transition */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.Btn:hover {
+  background-color: #007BFF; /* Blue background on hover */
+  color: #ffffff; /* White text color on hover */
+}
+
+.sign {
+  margin-right: 10px;
+}
+
+.sign svg {
+  width: 16px;
+}
+
+.text {
+  display: none;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+/* Hover effect for the button */
+.Btn:hover .text {
+  display: inline;
+}
+
+.Btn:active {
+  transform: translate(0, 2px);
+}

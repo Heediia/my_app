@@ -1,0 +1,154 @@
+/* Styles pour le conteneur principal */
+.home-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px;
+    background-color: #f8f8f8;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    position: relative;
+  }
+  
+  /* Style pour le conteneur du calendrier */
+  .calendar-container {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    padding: 20px;
+    width: 300px; /* Réduit la taille du calendrier */
+    position: absolute;
+    right: 20px; /* Positionné à droite avec un peu de marge */
+    top: 50px; /* Ajuster la position verticale si nécessaire */
+    text-align: center;
+  }
+  
+  /* Style pour le titre */
+  h1 {
+    /* color: #000; */
+    margin-bottom: 20px;
+  }
+  
+  /* Style pour la date sélectionnée */
+  .selected-date {
+    margin-top: 20px;
+    font-size: 16px;
+    color: initial;
+  }
+  
+  /* Style spécifique pour le calendrier */
+  .react-calendar {
+    border: none;
+    width: 100%;
+  }
+  .react-calendar__tile {
+    color: #666; /* Couleur par défaut */
+  }
+  .react-calendar__tile--active {
+    background: #006edc !important;
+    color: white !important;
+  }
+  
+  .react-calendar__tile--now {
+    background: #ffa726 !important;
+    color: white !important;
+  }
+  
+  /* Change la couleur des éléments ayant un aria-label */
+  .react-calendar__tile[aria-label] {
+    color: red; /* Couleur de texte rouge */
+  }
+
+  
+  .react-calendar__navigation__label {
+    color: initial; /* Change la couleur du texte de la navigation */
+    font-weight: bold;
+  }
+  
+  .react-calendar__navigation__arrow {
+    color: initial; /* Change la couleur des flèches de navigation */
+  }
+
+
+  .cont-ainer {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    max-width: 1200px;
+    margin-right: 0;
+    margin-top: -93px;
+}
+
+section {
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 48%;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+section:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+  
+
+.fas fa-newspaper {
+    font-size: 26px;
+    color: #444;
+    border-bottom: 3px solid #ffcc00;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+h2 i {
+    margin-right: 10px;
+}
+
+.nouvelles-item, .evenements-item {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 10px;
+}
+
+h3 {
+    font-size: 20px;
+    color: #40c9ff;
+}
+
+.date {
+    font-size: 14px;
+    color: #888;
+}
+
+p {
+    font-size: 16px;
+    /* color: white; */
+    margin: 10px 0;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.fas {
+    color: #ffcc00;
+    margin-right: 5px;
+}
+.img {
+  max-width: 100%;
+  height: 100%;
+  border: 5px solid #007bff;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+  display: block;
+  margin: 20px auto; /* Center the image */
+  transition: transform 0.3s ease-in-out;
+}

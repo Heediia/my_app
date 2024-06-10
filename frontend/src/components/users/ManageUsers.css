@@ -1,0 +1,71 @@
+/* ManageUsers.css */
+.manage-users-container {
+  max-width: 1800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.users-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0 auto;
+  table-layout: fixed;
+  border: 2px solid transparent; /* Ajout d'une bordure transparente */
+  background: linear-gradient(#212121, #212121) padding-box, linear-gradient(145deg, #e81cff, #40c9ff) border-box; /* Dégradé de couleur pour la bordure */
+  color: #fff;
+}
+
+.users-table th,
+.users-table td {
+  border: 1px solid transparent; /* Bordure transparente */
+  padding: 10px;
+  text-align: center;
+  background: linear-gradient(#212121, #212121) padding-box, linear-gradient(145deg, #e81cff, #40c9ff) border-box; /* Dégradé pour la bordure */
+  color: #fff;
+  width: 40%; /* Largeur fixe pour chaque colonne */
+  word-wrap: break-word; /* Permettre le passage à la ligne automatique si le texte est trop long */
+}
+
+.error-message {
+  color: red;
+  text-align: center;
+}
+
+button {
+  margin-bottom: 5px;
+  margin-right: 10px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button-edit {
+  background-color: #007bff; /* Bleu - couleur par défaut */
+  color: white;
+}
+
+.button-edit:hover {
+  background-color: #0056b3; /* Bleu plus foncé au survol */
+}
+
+.button-delete {
+  background-color: #dc3545; /* Rouge - couleur par défaut */
+  color: white;
+}
+
+.button-delete:hover {
+  background-color: #c82333; /* Rouge plus foncé au survol */
+}
+
+/* Ajustement de la largeur des champs de saisie */
+.users-table input {
+  width: 100%; /* Réglage de la largeur à 100% */
+  box-sizing: border-box; /* Inclure la largeur du bord et du rembourrage dans la largeur totale */
+  padding: 8px; /* Espacement interne */
+}

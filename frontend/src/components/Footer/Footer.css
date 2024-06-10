@@ -1,0 +1,27 @@
+.footer {
+  background-color: #0055ff; /* Dark background color for a modern look */
+  color: #ffffff; /* White text color */
+  padding: 15px 20px; /* Increased padding for better spacing */
+  position: fixed;
+  width: 100%;
+  height: 10px; /* Increased height for a more substantial footer */
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: center; /* Center the content horizontally */
+  align-items: center; /* Center the content vertically */
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+  font-size: 16px; /* Larger font size for better readability */
+  font-weight: 500; /* Slightly bold text for emphasis */
+}
+
+.footer a {
+  color: #61dafb; /* Light blue color for links */
+  text-decoration: none; /* Remove underline from links */
+  margin-left: 10px; /* Space between text and links */
+  transition: color 0.3s; /* Smooth transition for hover effect */
+}
+
+.footer a:hover {
+  color: #21a1f1; /* Darker blue color on hover */
+}

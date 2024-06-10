@@ -1,0 +1,108 @@
+/* ViewNotes.css */
+.view-notes-container {
+  max-width: 1800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #000;
+}
+
+.notes-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px auto;
+  border: 1px solid #ccc; /* Bordure grise douce pour un look moderne */
+  background-color: #f9f9f9; /* Fond clair pour un contraste agréable */
+  color: #333; /* Couleur de texte sombre pour une bonne lisibilité */
+}
+
+.notes-table th, .notes-table td {
+  border: 1px solid #ddd; /* Bordure légère pour séparer les cellules */
+  padding: 12px;
+  text-align: left;
+  font-family: Arial, sans-serif;
+}
+
+.notes-table th {
+  background-color: #f2f2f2; /* Fond clair pour les en-têtes */
+  color: #333;
+  font-weight: bold;
+}
+
+.notes-table td {
+  background-color: #fff; /* Fond blanc pour les cellules */
+}
+
+.notes-table th, .notes-table td:hover {
+  background-color: #e0e0e0; /* Effet de survol pour les cellules */
+}
+
+/* 
+.notes-table th, .notes-table td {
+  border: 1px solid transparent;
+  padding: 10px;
+  text-align: center;
+  background: linear-gradient(#212121, #212121) padding-box, linear-gradient(145deg, #e81cff, #40c9ff) border-box;
+  color: #fff;
+}
+
+.notes-table th {
+  background-color: #212121; 
+}
+
+.notes-table td {
+  background-color: #212121;
+} */
+
+.error-message {
+  color: red;
+  text-align: center;
+}
+
+button {
+  margin-bottom: 5px;
+  margin-right: 10px;
+  padding: 5px 10px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.button-edit {
+  background-color: #007bff; /* Bleu - couleur par défaut */
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button-edit:hover {
+  background-color: #0056b3; /* Bleu plus foncé au survol */
+}
+
+.button-delete {
+  background-color: #dc3545; /* Rouge - couleur par défaut */
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button-delete:hover {
+  background-color: #c82333; /* Rouge plus foncé au survol */
+}
+
+/* Ajustement de la largeur des champs de saisie */
+.notes-table input {
+  width: 100%; /* Réglage de la largeur à 100% */
+  box-sizing: border-box; /* Inclure la largeur du bord et du rembourrage dans la largeur totale */
+  padding: 8px; /* Espacement interne */
+}
